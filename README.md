@@ -18,6 +18,16 @@ MEV research is published in aggregate — billions extracted, thousands of sear
 
 This does. Point it at an address and it scans that address's real swap history, rebuilds every block it traded in, finds where a bot bracketed a trade, and totals up what was taken.
 
+<p align="center">
+  <img src="assets/report.svg" width="677"
+       alt="Terminal session showing the MEV Leakage Report finding five sandwich attacks against a wallet, totalling $57.62 extracted">
+</p>
+
+<sub>Real output from an actual mainnet run, not a mockup.</sub>
+
+<details>
+<summary>Same output as text</summary>
+
 ```
   MEV Leakage Report
   0x6cC84d512b3F117711F2cAabeaed8E4dAb83f6ef
@@ -38,7 +48,7 @@ This does. Point it at an address and it scans that address's real swap history,
     backrun        0x98f1429a2d1f3abc46c92ae42c654b038acd1d4b2ce0dd9e13c76041aa32df0b
 ```
 
-<sub>Real output from an actual mainnet run, not a mockup.</sub>
+</details>
 
 ## Quick start
 
