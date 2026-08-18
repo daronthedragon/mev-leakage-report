@@ -36,16 +36,23 @@ This does. Point it at an address and it scans that address's real swap history,
 
   ──────────────────────────────────────────────────────────────────
   Sandwiches found        5
-  Value extracted         $57.60
-  Worst single hit        $23.59
+  Value extracted         $57.62
+  Worst single hit        $23.60
   ──────────────────────────────────────────────────────────────────
 
 #1  block 25783249  USDC/WETH  high
     your swap      0x3774258345294ac87c7ae151f05e23094456a51c6b4c7dce798db7fbb4ab4320
-    extracted      0.010224 WETH  $19.54
+    extracted      0.010224 WETH  $19.55
     attacker gas   0.000044426159880648 ETH  (same sender)
     frontrun       0xc84ced9c8b0c2706c00b62b86ca26cffa9fc2405c521b697fd9fcb58c268f584
     backrun        0x98f1429a2d1f3abc46c92ae42c654b038acd1d4b2ce0dd9e13c76041aa32df0b
+
+#2  block 25783247  USDC/WETH  high
+    your swap      0x1e38e32632c9048cd8fa79f6278f0c5e91c50edd9424d6fd1f7d18cce70aaf28
+    extracted      0.00532 WETH  $10.17
+    attacker gas   0.006577260752889026 ETH  (same sender)
+    frontrun       0xcea7f60919adf1be1f9244ab4fb8af8f5faec9e56b5865fff9b7a7bc4e665f81
+    backrun        0x6f205d736045e6bf0b552b91c79759b0f942c9efc3f2050387dd2583dfc94135
 ```
 
 </details>
